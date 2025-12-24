@@ -939,31 +939,203 @@ html {
     .cta-buttons {
         flex-direction: column;
         width: 100%;
+        gap: 1rem;
     }
     
     .btn {
         width: 100%;
+        padding: 1rem 2rem;
+    }
+
+    .about-section {
+        padding: 50px 0;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
     
     .info-card {
-        padding: 2rem;
+        padding: 2rem 1.5rem;
+    }
+
+    .card-icon {
+        font-size: 2.5rem;
+    }
+
+    .info-card h3 {
+        font-size: 1.5rem;
     }
     
     .tech-grid {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .specialization-list {
+        gap: 1.5rem;
+    }
+
+    .spec-item {
+        padding: 1rem;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .spec-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 2rem;
+    }
+
+    .approach-list li {
+        font-size: 1rem;
+        padding: 0.8rem;
     }
     
     .cta-card {
-        padding: 2rem;
+        padding: 2rem 1.5rem;
     }
     
     .cta-card h2 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+    }
+
+    .cta-card p {
+        font-size: 1.1rem;
+    }
+
+    .contact-section {
+        padding: 50px 0;
+    }
+
+    .contact-section h2 {
+        font-size: 2rem;
     }
 
     .contact-card {
         flex-direction: column;
         text-align: center;
+        padding: 2rem;
+        gap: 1.5rem;
+    }
+
+    .contact-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 2.5rem;
+    }
+
+    .contact-label {
+        font-size: 1.5rem;
+    }
+
+    .contact-username {
+        font-size: 1.1rem;
+    }
+
+    .scroll-indicator {
+        display: none;
+    }
+
+    .hero-badges {
+        gap: 0.5rem;
+    }
+
+    .badge {
+        padding: 0.6rem 1rem;
+        font-size: 0.85rem;
+    }
+
+    /* Отключаем тяжелые анимации на мобильных */
+    .floating-shapes {
+        display: none;
+    }
+
+    #particles-js {
+        display: none;
+    }
+
+    .typewriter {
+        white-space: normal;
+        border-right: none;
+    }
+
+    .hero-background-glow {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/* Для очень маленьких экранов */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .logo-text {
+        font-size: 2rem;
+    }
+
+    .main-title {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-badges {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .badge {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .section-header h2 {
+        font-size: 1.8rem;
+    }
+
+    .stat-card {
+        padding: 1.5rem;
+    }
+
+    .stat-number {
+        font-size: 2.5rem;
+    }
+
+    .info-card {
+        padding: 1.5rem 1rem;
+    }
+
+    .card-icon {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .info-card h3 {
+        font-size: 1.3rem;
+    }
+
+    .info-card p {
+        font-size: 1rem;
+    }
+
+    .cta-card h2 {
+        font-size: 1.3rem;
+    }
+
+    .cta-card p {
+        font-size: 1rem;
+    }
+
+    .contact-card {
+        padding: 1.5rem;
     }
 }
 
